@@ -3,4 +3,4 @@ From: Filedrop Ltd.
 
 LICENSE
 
-<Insert License Here>
+N/A

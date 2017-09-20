@@ -2,5 +2,7 @@
 VERIFICATION
 Verification is intended to assist the Chocolatey moderators and community
 in verifying that this package's contents are trustworthy.
- 
+
+MD5 Hash: 43850DAE12CDC8E809A6CE300BF92060
+SHA-1 Hash: 494B0620518BF50B3CFEB104540304C3E7F7B6D8
 SHA-256 Hash: 9D7B256298DD84C934ECE28BEC24E244A653A67E39FD72EF9941339C3DE426E7
