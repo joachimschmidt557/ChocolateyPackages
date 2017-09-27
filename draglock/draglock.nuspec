@@ -22,34 +22,37 @@ This is a nuspec. It mostly adheres to https://docs.nuget.org/create/Nuspec-Refe
     <!-- This section is about this package, although id and version have ties back to the software -->
     <!-- id is lowercase and if you want a good separator for words, use '-', not '.'. Dots are only acceptable as suffixes for certain types of packages, e.g. .install, .portable, .extension, .template -->
     <!-- If the software is cross-platform, attempt to use the same id as the debian/rpm package(s) if possible. -->
-    <id>draglock</id>
+    <id>DragLock</id>
     <!-- version should MATCH as closely as possible with the underlying software -->
     <!-- Is the version a prerelease of a version? https://docs.nuget.org/create/versioning#creating-prerelease-packages -->
     <!-- Note that unstable versions like 0.0.1 can be considered a released version, but it's possible that one can release a 0.0.1-beta before you release a 0.0.1 version. If the version number is final, that is considered a released version and not a prerelease. -->
-    <version>__REPLACE__</version>
+    <version>1.0</version>
     <packageSourceUrl>https://github.com/joachimschmidt557/ChocolateyPackages/tree/master/draglock</packageSourceUrl>
     <!-- owners is a poor name for maintainers of the package. It sticks around by this name for compatibility reasons. It basically means you. -->
-    <!--<owners>joachim.schmidt557</owners>
+    <owners>joachim.schmidt557</owners>
     <!-- ============================== -->
 
     <!-- == SOFTWARE SPECIFIC SECTION == -->
     <!-- This section is about the software itself -->
-    <title>draglock (Install)</title>
-    <authors>__REPLACE_AUTHORS_OF_SOFTWARE_COMMA_SEPARATED__</authors>
+    <title>DragLock</title>
+    <authors>1 Hour Software by Skrommel</authors>
     <!-- projectUrl is required for the community feed -->
     <projectUrl>http://www.donationcoder.com/Software/Skrommel/index.html#DragLock</projectUrl>
-    <!--<iconUrl>http://cdn.rawgit.com/__REPLACE_YOUR_REPO__/master/icons/draglock.png</iconUrl>-->
-    <!-- <copyright>Year Software Vendor</copyright> -->
+    <iconUrl>https://cdn.rawgit.com/joachimschmidt557/ChocolateyPackages/92965e3d/icons/DragLock.png</iconUrl>
+    <copyright>2007 1 Hour Software by Skrommel</copyright>
     <!-- If there is a license Url available, it is is required for the community feed -->
     <!-- <licenseUrl>Software License Location __REMOVE_OR_FILL_OUT__</licenseUrl>
     <requireLicenseAcceptance>true</requireLicenseAcceptance>-->
-    <!--<projectSourceUrl>Software Source Location - is the software FOSS somewhere? Link to it with this</projectSourceUrl>-->
+    <projectSourceUrl>http://www.donationcoder.com/Software/Skrommel/DragLock/DragLock.ahk</projectSourceUrl>
     <!--<docsUrl>At what url are the software docs located?</docsUrl>-->
     <!--<mailingListUrl></mailingListUrl>-->
     <!--<bugTrackerUrl></bugTrackerUrl>-->
-    <summary>__REPLACE__</summary>
-    <tags>draglock admin SPACE_SEPARATED</tags>
-    <description>__REPLACE__MarkDown_Okay </description>
+    <summary>Press the windows key to lock the mouse movement along one axis.</summary>
+    <tags>draglock admin</tags>
+    <description>
+    Press the windows key to lock the mouse movement along one axis.
+    - Change hotkey using Settings in the tray menu
+    </description>
     <!-- <releaseNotes>__REPLACE_OR_REMOVE__MarkDown_Okay</releaseNotes> -->
     <!-- =============================== -->      
 
