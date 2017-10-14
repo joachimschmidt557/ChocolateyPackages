@@ -34,7 +34,7 @@ This is a nuspec. It mostly adheres to https://docs.nuget.org/create/Nuspec-Refe
 
     <!-- == SOFTWARE SPECIFIC SECTION == -->
     <!-- This section is about the software itself -->
-    <title>filedrop (Install)</title>
+    <title>FileDrop (Install)</title>
     <authors>Filedrop Ltd.</authors>
     <!-- projectUrl is required for the community feed -->
     <projectUrl>http://www.filedropme.com/</projectUrl>
@@ -47,7 +47,7 @@ This is a nuspec. It mostly adheres to https://docs.nuget.org/create/Nuspec-Refe
     <!--<docsUrl>At what url are the software docs located?</docsUrl>-->
     <!--<mailingListUrl></mailingListUrl>-->
     <!--<bugTrackerUrl></bugTrackerUrl>-->
-    <tags>filedrop wifi filesharing</tags>
+    <tags>filedrop wifi filesharing admin</tags>
     <summary>No cables, no clouds. Simply share files over wifi. </summary>
     <description>No cables, no clouds. Simply share files over wifi. </description>
     <!-- <releaseNotes>__REPLACE_OR_REMOVE__MarkDown_Okay</releaseNotes> -->

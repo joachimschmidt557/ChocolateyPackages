@@ -2,14 +2,13 @@
 $ErrorActionPreference = 'Stop';
 $toolsDir   = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)"
 $url        = 'http://commondatastorage.googleapis.com/filedropme/Filedrop.exe'
-$url64      = $url
 
 $packageArgs = @{
   packageName   = $env:ChocolateyPackageName
   unzipLocation = $toolsDir
   fileType      = 'EXE'
   url           = $url
-  url64bit      = $url64
+  url64bit      = $url
 
   softwareName  = 'filedrop*'
 
