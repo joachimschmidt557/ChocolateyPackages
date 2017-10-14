@@ -7,8 +7,7 @@ $ErrorActionPreference = 'Stop'; # stop on all errors
 
 $packageName= 'foldercolorizer' # arbitrary name for the package, used in messages
 $toolsDir   = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)"
-$url        = '' # download url
-$url64      = '' # 64bit URL here or remove - if installer is both, use $url
+$url        = 'https://softorino.com/media/utilities/FolderColorizerSetup.exe' # download url
 #$fileLocation = Join-Path $toolsDir 'NAME_OF_EMBEDDED_INSTALLER_FILE'
 #$fileLocation = Join-Path $toolsDir 'SHARE_LOCATION_OF_INSTALLER_FILE'
 
@@ -17,7 +16,6 @@ $packageArgs = @{
   unzipLocation = $toolsDir
   fileType      = 'EXE' #only one of these: exe, msi, msu
   url           = $url
-  url64bit      = $url64
   #file         = $fileLocation
 
   #MSI
@@ -40,10 +38,8 @@ $packageArgs = @{
 
   # optional, highly recommended
   softwareName  = 'foldercolorizer*' #part or all of the Display Name as you see it in Programs and Features. It should be enough to be unique
-  checksum      = ''
+  checksum      = 'https://softorino.com/media/utilities/FolderColorizerSetup.exe'
   checksumType  = 'sha256' #default is md5, can also be sha1
-  checksum64    = ''
-  checksumType64= 'sha256' #default is checksumType
 }
 
 Install-ChocolateyPackage @packageArgs

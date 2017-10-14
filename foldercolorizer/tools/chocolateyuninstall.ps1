@@ -10,8 +10,7 @@ $ErrorActionPreference = 'Stop'; # stop on all errors
 
 $packageName = 'foldercolorizer'
 $softwareName = 'foldercolorizer*' #part or all of the Display Name as you see it in Programs and Features. It should be enough to be unique
-$installerType = 'MSI' 
-#$installerType = 'EXE' 
+$installerType = 'EXE' 
 
 $silentArgs = '/qn /norestart'
 # https://msdn.microsoft.com/en-us/library/aa376931(v=vs.85).aspx
