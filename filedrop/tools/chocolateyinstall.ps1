@@ -8,14 +8,11 @@ $packageArgs = @{
   unzipLocation = $toolsDir
   fileType      = 'EXE'
   url           = $url
-  url64bit      = $url
 
   softwareName  = 'filedrop*'
 
   checksum      = '9D7B256298DD84C934ECE28BEC24E244A653A67E39FD72EF9941339C3DE426E7'
   checksumType  = 'sha256'
-  checksum64    = '9D7B256298DD84C934ECE28BEC24E244A653A67E39FD72EF9941339C3DE426E7'
-  checksumType64= 'sha256'
 
   silentArgs   = '/VERYSILENT /SUPPRESSMSGBOXES /NORESTART /SP-'
   validExitCodes= @(0)
