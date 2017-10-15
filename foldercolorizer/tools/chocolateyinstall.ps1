@@ -1,7 +1,6 @@
 ﻿
 $ErrorActionPreference = 'Stop';
 
-
 $packageName= 'foldercolorizer'
 $toolsDir   = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)"
 $url        = 'https://softorino.com/media/utilities/FolderColorizerSetup.exe'
