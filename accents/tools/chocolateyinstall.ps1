@@ -1,0 +1,2 @@
+$toolsDir = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)"
+Get-ChocolateyWebFile -PackageName 'accents' -FileFullPath "$toolsDir\Accents.exe" -Url 'http://www.donationcoder.com/Software/Skrommel/Accents/Accents.exe'
