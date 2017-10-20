@@ -1,2 +1,0 @@
-﻿
-Stop-Process -Name "easyCrypt"
