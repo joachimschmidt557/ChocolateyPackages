@@ -49,7 +49,12 @@ This is a nuspec. It mostly adheres to https://docs.nuget.org/create/Nuspec-Refe
     <!--<bugTrackerUrl></bugTrackerUrl>-->
     <tags>easycrypt encryption</tags>
     <summary>A tool for encrypting files</summary>
-    <description>A tool for encrypting files</description>
+    <description>
+     With easycrypt you can encrypt your files with ease. This tool integrates
+     into the File Explorer context-menu which enables you to safely encrypt
+     files with a simple right-click. The AES encryption algorithm, which is
+     considered to be very secure, is used.
+    </description>
     <!-- <releaseNotes>__REPLACE_OR_REMOVE__MarkDown_Okay</releaseNotes> -->
     <!-- =============================== -->      
 
