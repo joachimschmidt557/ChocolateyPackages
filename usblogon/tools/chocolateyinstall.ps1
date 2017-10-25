@@ -10,7 +10,7 @@ $packageArgs = @{
   url           = $url
   url64bit      = $url64
 
-  softwareName  = 'usblogon*'
+  softwareName  = 'quadsoft usblogon*'
 
   checksum      = '8F2503F220CF7357D2F61A33894129C660C8F817D39E6441301C319C37172CCC'
   checksumType  = 'sha256'
