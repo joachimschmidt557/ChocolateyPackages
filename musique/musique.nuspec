@@ -41,13 +41,13 @@ This is a nuspec. It mostly adheres to https://docs.nuget.org/create/Nuspec-Refe
     <iconUrl>https://cdn.rawgit.com/joachimschmidt557/ChocolateyPackages/6640e06c/icons/musique.png</iconUrl>
     <!-- <copyright>Year Software Vendor</copyright> -->
     <!-- If there is a license Url available, it is required for the community feed -->
-    <!-- <licenseUrl>Software License Location __REMOVE_OR_FILL_OUT__</licenseUrl>
-    <requireLicenseAcceptance>true</requireLicenseAcceptance>-->
-    <!--<projectSourceUrl>Software Source Location - is the software FOSS somewhere? Link to it with this</projectSourceUrl>-->
+    <licenseUrl>https://github.com/flaviotordini/musique/blob/master/COPYING</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <projectSourceUrl>https://github.com/flaviotordini/musique</projectSourceUrl>
     <!--<docsUrl>At what url are the software docs located?</docsUrl>-->
     <!--<mailingListUrl></mailingListUrl>-->
     <!--<bugTrackerUrl></bugTrackerUrl>-->
-    <tags>musique music musicplayer mp3</tags>
+    <tags>musique music musicplayer mp3 foss</tags>
     <summary>Musique unclutters your music listening experience with a clean and innovative interface.</summary>
     <description>
      Musique does its best to stay out of the way and keep you focused on the
