@@ -27,7 +27,7 @@ This is a nuspec. It mostly adheres to https://docs.nuget.org/create/Nuspec-Refe
     <!-- Is the version a prerelease of a version? https://docs.nuget.org/create/versioning#creating-prerelease-packages -->
     <!-- Note that unstable versions like 0.0.1 can be considered a released version, but it's possible that one can release a 0.0.1-beta before you release a 0.0.1 version. If the version number is final, that is considered a released version and not a prerelease. -->
     <version>1.5</version>
-    <packageSourceUrl></packageSourceUrl>
+    <packageSourceUrl>https://github.com/joachimschmidt557/ChocolateyPackages/tree/master/musique</packageSourceUrl>
     <!-- owners is a poor name for maintainers of the package. It sticks around by this name for compatibility reasons. It basically means you. -->
     <owners>joachim.schmidt557</owners>
     <!-- ============================== -->
@@ -38,7 +38,7 @@ This is a nuspec. It mostly adheres to https://docs.nuget.org/create/Nuspec-Refe
     <authors>Flavio Tordini</authors>
     <!-- projectUrl is required for the community feed -->
     <projectUrl>http://flavio.tordini.org/musique</projectUrl>
-    <iconUrl>http://cdn.rawgit.com/__REPLACE_YOUR_REPO__/master/icons/musique.png</iconUrl>
+    <iconUrl>https://cdn.rawgit.com/joachimschmidt557/ChocolateyPackages/6640e06c/icons/musique.png</iconUrl>
     <!-- <copyright>Year Software Vendor</copyright> -->
     <!-- If there is a license Url available, it is required for the community feed -->
     <!-- <licenseUrl>Software License Location __REMOVE_OR_FILL_OUT__</licenseUrl>
@@ -47,11 +47,27 @@ This is a nuspec. It mostly adheres to https://docs.nuget.org/create/Nuspec-Refe
     <!--<docsUrl>At what url are the software docs located?</docsUrl>-->
     <!--<mailingListUrl></mailingListUrl>-->
     <!--<bugTrackerUrl></bugTrackerUrl>-->
-    <tags>musique music</tags>
+    <tags>musique music musicplayer mp3</tags>
     <summary>Musique unclutters your music listening experience with a clean and innovative interface.</summary>
     <description>
+     Musique does its best to stay out of the way and keep you focused on the
+     only thing that really matters: Music.
+
+     Musique is great for kids and other family members that may find other
+     players too complex and cumbersome.
+     
+    * Starts fast, very lightweight and can easily handle large collections.
+    * Browse by artist photos, album covers and folders too, so you can organize your music your way.
+    * Immersive Info View you can switch to while listening. It shows information about the current track, album and artist.
+    * Supports most audio formats, including: FLAC, OGG Vorbis, Monkey's Audio (APE), Musepack (MPC), WavPack (WV), True Audio (TTA)
+    * Automatically fixes misspellings and case in track titles, album titles and artist names, freeing you from the hassle of manually tagging your files.
+    * Musique never ever modifies your files, it stores all of its data in its own database.
+    * Supports scrobbling to Last.fm
+    * Not an iTunes addon. It's a completely independent application that does one thing and does it well.
+    * Translated to more than 20 languages including German, French, Spanish, Portuguese, Italian, Russian and Chinese.
+    
     </description>
-    <!-- <releaseNotes>__REPLACE_OR_REMOVE__MarkDown_Okay</releaseNotes> -->
+    <releaseNotes>http://flavio.tordini.org/musique-1-5-now-free-on-mac-windows</releaseNotes>
     <!-- =============================== -->      
 
     <!-- Specifying dependencies and version ranges? https://docs.nuget.org/create/versioning#specifying-version-ranges-in-.nuspec-files -->
