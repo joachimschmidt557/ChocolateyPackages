@@ -47,7 +47,7 @@ This is a nuspec. It mostly adheres to https://docs.nuget.org/create/Nuspec-Refe
     <!--<docsUrl>At what url are the software docs located?</docsUrl>-->
     <!--<mailingListUrl></mailingListUrl>-->
     <!--<bugTrackerUrl></bugTrackerUrl>-->
-    <tags>usblogon usb</tags>
+    <tags>usblogon usb freeware</tags>
     <summary>Logon into your Windows PC using a USB drive</summary>
     <description>
      USBLogon enables you to use a USB drive to login to your Windows account

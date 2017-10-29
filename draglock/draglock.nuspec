@@ -48,7 +48,7 @@ This is a nuspec. It mostly adheres to https://docs.nuget.org/create/Nuspec-Refe
     <!--<mailingListUrl></mailingListUrl>-->
     <!--<bugTrackerUrl></bugTrackerUrl>-->
     <summary>Press the windows key to lock the mouse movement along one axis.</summary>
-    <tags>draglock admin</tags>
+    <tags>draglock foss</tags>
     <description>
     Press the windows key to lock the mouse movement along one axis.
     - Change hotkey using Settings in the tray menu

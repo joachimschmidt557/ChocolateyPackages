@@ -47,7 +47,7 @@ This is a nuspec. It mostly adheres to https://docs.nuget.org/create/Nuspec-Refe
     <!--<docsUrl>At what url are the software docs located?</docsUrl>-->
     <!--<mailingListUrl></mailingListUrl>-->
     <!--<bugTrackerUrl></bugTrackerUrl>-->
-    <tags>musique music musicplayer mp3 foss</tags>
+    <tags>musique music musicplayer mp3 foss cross-platform</tags>
     <summary>Musique unclutters your music listening experience with a clean and innovative interface.</summary>
     <description>
      Musique does its best to stay out of the way and keep you focused on the
