@@ -35,7 +35,7 @@ This is a nuspec. It mostly adheres to https://docs.nuget.org/create/Nuspec-Refe
     <!-- == SOFTWARE SPECIFIC SECTION == -->
     <!-- This section is about the software itself -->
     <title>Mosh for Chome (Install)</title>
-    <authors>mosh-devel@mit.edu</authors>
+    <authors>Richard Woodbury</authors>
     <!-- projectUrl is required for the community feed -->
     <projectUrl>https://mosh.org</projectUrl>
     <iconUrl>https://cdn.rawgit.com/joachimschmidt557/ChocolateyPackages/d582af8c/icons/mosh.png</iconUrl>
@@ -43,7 +43,7 @@ This is a nuspec. It mostly adheres to https://docs.nuget.org/create/Nuspec-Refe
     <!-- If there is a license Url available, it is required for the community feed -->
     <!-- <licenseUrl>Software License Location __REMOVE_OR_FILL_OUT__</licenseUrl>
     <requireLicenseAcceptance>true</requireLicenseAcceptance>-->
-    <projectSourceUrl>https://github.com/mobile-shell/mosh</projectSourceUrl>
+    <projectSourceUrl>https://github.com/rpwoodbu/mosh-chrome</projectSourceUrl>
     <!--<docsUrl>At what url are the software docs located?</docsUrl>-->
     <!--<mailingListUrl></mailingListUrl>-->
     <!--<bugTrackerUrl></bugTrackerUrl>-->
