@@ -2,7 +2,7 @@
 $ErrorActionPreference = 'Stop';
 $packageArgs = @{
   packageName   = $env:ChocolateyPackageName
-  softwareName  = 'ArecaBackup*'
+  softwareName  = 'Areca*'
   fileType      = 'EXE'
   silentArgs    = "/S"
   validExitCodes= @(0)

@@ -11,7 +11,7 @@ $packageArgs = @{
   url           = $url
   url64bit      = $url64
 
-  softwareName  = 'ArecaBackup*'
+  softwareName  = 'Areca*'
 
   checksum      = 'E168FE78E53B4F208AA0A5F5353DCB3A64B2F1E17C88FCED7F29E2CD5909526A'
   checksumType  = 'sha256'
