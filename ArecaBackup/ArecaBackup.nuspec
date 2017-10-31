@@ -23,5 +23,8 @@ It has been designed to ...
     <releaseNotes />
     <copyright>General Public License (GPL) v2</copyright>
     <tags>ArecaBackup admin backup data security</tags>
+    <dependencies>
+      <dependency id="jre8" />
+    </dependencies>
   </metadata>
 </package>
