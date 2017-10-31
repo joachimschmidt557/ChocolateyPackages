@@ -2,10 +2,10 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
   <metadata>
     <id>ArecaBackup</id>
-    <version>7.4.8</version>
+    <version>7.5</version>
     <title>Areca Backup</title>
     <authors>Olivier Petrucci</authors>
-    <owners>Waterdrop</owners>
+    <owners>Waterdrop,joachim.schmidt557</owners>
     <licenseUrl>http://www.opensource.org/licenses/gpl-license.php</licenseUrl>
     <projectUrl>http://www.areca-backup.org/</projectUrl>
     <iconUrl>https://cdn.rawgit.com/Summerspecial/ChocoCont/master/ArecaBackup/areca_logo.png</iconUrl>
