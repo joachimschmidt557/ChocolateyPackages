@@ -2,6 +2,7 @@
 Some packages for Chocolatey
 
 - Accents
+- Areca Backup
 - BigByte
 - DeezPlayer
 - DragLock
@@ -10,4 +11,5 @@ Some packages for Chocolatey
 - FlashPrint
 - Folder Colorizer
 - Musique
+- UPX
 - USBLogon
