@@ -20,10 +20,8 @@ $packageArgs = @{
 
 Install-ChocolateyPackage @packageArgs
 
-Start-Sleep -Seconds 3
-
 $ProcessActive = Get-Process ricochet -ErrorAction SilentlyContinue
-if($ProcessActive -eq $null)
+if($ProcessActive -ne $null)
 {
     Stop-Process -Name "ricochet"
 }
