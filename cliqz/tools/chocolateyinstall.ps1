@@ -15,17 +15,18 @@ $toolsDir   = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)"
 #$fileLocation = '\\SHARE_LOCATION\to\INSTALLER_FILE'
 # Community Repo: Use official urls for non-redist binaries or redist where total package size is over 200MB
 # Internal/Organization: Download from internal location (internet sources are unreliable)
-$url        = 'https://github.com/IrosTheBeggar/mStream/releases/download/v3.2.0/mStreamExpress-installer-v0.6.exe' # download url, HTTPS preferred
+$url        = '' # download url, HTTPS preferred
+$url64      = '' # 64bit URL here (HTTPS preferred) or remove - if installer contains both (very rare), use $url
 
 $packageArgs = @{
   packageName   = $env:ChocolateyPackageName
   unzipLocation = $toolsDir
-  fileType      = 'EXE' #only one of these: exe, msi, msu
+  fileType      = 'EXE_MSI_OR_MSU' #only one of these: exe, msi, msu
   url           = $url
   url64bit      = $url64
   #file         = $fileLocation
 
-  softwareName  = 'mstream*' #part or all of the Display Name as you see it in Programs and Features. It should be enough to be unique
+  softwareName  = 'cliqz*' #part or all of the Display Name as you see it in Programs and Features. It should be enough to be unique
 
   # Checksums are now required as of 0.10.0.
   # To determine checksums, you can get that from the original site if provided. 
@@ -33,6 +34,8 @@ $packageArgs = @{
   # e.g. checksum -t sha256 -f path\to\file
   checksum      = ''
   checksumType  = 'sha256' #default is md5, can also be sha1, sha256 or sha512
+  checksum64    = ''
+  checksumType64= 'sha256' #default is checksumType
 
   # MSI
   silentArgs    = "/qn /norestart /l*v `"$($env:TEMP)\$($packageName).$($env:chocolateyPackageVersion).MsiInstall.log`"" # ALLUSERS=1 DISABLEDESKTOPSHORTCUT=1 ADDDESKTOPICON=0 ADDSTARTMENU=0
