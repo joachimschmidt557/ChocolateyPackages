@@ -22,7 +22,6 @@ $packageArgs = @{
   unzipLocation = $toolsDir
   fileType      = 'EXE' #only one of these: exe, msi, msu
   url           = $url
-  url64bit      = $url64
   #file         = $fileLocation
 
   softwareName  = 'mstream*' #part or all of the Display Name as you see it in Programs and Features. It should be enough to be unique

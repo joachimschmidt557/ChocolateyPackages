@@ -27,7 +27,7 @@ This is a nuspec. It mostly adheres to https://docs.nuget.org/create/Nuspec-Refe
     <!-- Is the version a prerelease of a version? https://docs.nuget.org/create/versioning#creating-prerelease-packages -->
     <!-- Note that unstable versions like 0.0.1 can be considered a released version, but it's possible that one can release a 0.0.1-beta before you release a 0.0.1 version. If the version number is final, that is considered a released version and not a prerelease. -->
     <version>0.6</version>
-    <!-- <packageSourceUrl>Where is this Chocolatey package located (think GitHub)? packageSourceUrl is highly recommended for the community feed</packageSourceUrl>-->
+    <packageSourceUrl>https://github.com/joachimschmidt557/ChocolateyPackages/tree/master/manual/mstream.install</packageSourceUrl>
     <!-- owners is a poor name for maintainers of the package. It sticks around by this name for compatibility reasons. It basically means you. -->
     <owners>joachim.schmidt557</owners>
     <!-- ============================== -->
@@ -46,8 +46,8 @@ This is a nuspec. It mostly adheres to https://docs.nuget.org/create/Nuspec-Refe
     <projectSourceUrl>https://github.com/IrosTheBeggar/mStream</projectSourceUrl>
     <docsUrl>https://github.com/IrosTheBeggar/mStream/blob/master/docs</docsUrl>
     <!--<mailingListUrl></mailingListUrl>-->
-    <!--<bugTrackerUrl></bugTrackerUrl>-->
-    <tags>mstream.install music mp3 flac server</tags>
+    <bugTrackerUrl>https://github.com/IrosTheBeggar/mStream/issues</bugTrackerUrl>
+    <tags>mstream.install music mp3 flac server foss cross-platform</tags>
     <summary>mStream is a suite of open source software that lets you sync and stream your music between all your devices.</summary>
     <description>
     ## Philosophy
