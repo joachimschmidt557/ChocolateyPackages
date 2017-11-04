@@ -47,7 +47,7 @@ This is a nuspec. It mostly adheres to https://docs.nuget.org/create/Nuspec-Refe
     <!--<docsUrl>At what url are the software docs located?</docsUrl>-->
     <!--<mailingListUrl></mailingListUrl>-->
     <!--<bugTrackerUrl></bugTrackerUrl>-->
-    <tags>unfreez gif animated-gif</tags>
+    <tags>unfreez gif animated-gif image animated</tags>
     <summary>
 UnFREEz is a high-speed Windows application that will take any number of
 images, saved as separate GIF files, and create a single animated GIF from
