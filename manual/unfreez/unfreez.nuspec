@@ -49,24 +49,24 @@ This is a nuspec. It mostly adheres to https://docs.nuget.org/create/Nuspec-Refe
     <!--<bugTrackerUrl></bugTrackerUrl>-->
     <tags>unfreez gif animated-gif</tags>
     <summary>
-    UnFREEz is a high-speed Windows application that will take any number of
-    images, saved as separate GIF files, and create a single animated GIF from
-    those images.
+UnFREEz is a high-speed Windows application that will take any number of
+images, saved as separate GIF files, and create a single animated GIF from
+those images.
     </summary>
     <description>
-    UnFREEz is a high-speed Windows application that will take any number of
-    images, saved as separate GIF files, and create a single animated GIF from
-    those images. What makes this program unique from its competitors? First
-    and foremost, UnFREEz is freeware, which means you may use it forever
-    without paying a cent or feeling the slightest bit guilty. Secondly,
-    UnFREEz is incredibly tiny, meaning you don't have to spend forever
-    downloading an extremely bloated piece of software. Finally, it is so easy
-    to use. Just drag and drop some GIF files from Explorer, set the frame
-    delay time, and hit Make Animated GIF. UnFREEz will take care of the rest,
-    including automatic interlacing and transparency detection. So download
-    UnFREEz now and try it out for yourself! If you like it, keep it; it's
-    free! This program is written in non-MFC Win32 C++, and should not need any
-    additional files to run.
+UnFREEz is a high-speed Windows application that will take any number of
+images, saved as separate GIF files, and create a single animated GIF from
+those images. What makes this program unique from its competitors? First
+and foremost, UnFREEz is freeware, which means you may use it forever
+without paying a cent or feeling the slightest bit guilty. Secondly,
+UnFREEz is incredibly tiny, meaning you don't have to spend forever
+downloading an extremely bloated piece of software. Finally, it is so easy
+to use. Just drag and drop some GIF files from Explorer, set the frame
+delay time, and hit Make Animated GIF. UnFREEz will take care of the rest,
+including automatic interlacing and transparency detection. So download
+UnFREEz now and try it out for yourself! If you like it, keep it; it's
+free! This program is written in non-MFC Win32 C++, and should not need any
+additional files to run.
     </description>
     <!-- <releaseNotes>__REPLACE_OR_REMOVE__MarkDown_Okay</releaseNotes> -->
     <!-- =============================== -->      

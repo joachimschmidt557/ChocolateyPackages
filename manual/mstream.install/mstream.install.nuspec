@@ -50,19 +50,19 @@ This is a nuspec. It mostly adheres to https://docs.nuget.org/create/Nuspec-Refe
     <tags>mstream.install music mp3 flac server foss cross-platform</tags>
     <summary>mStream is a suite of open source software that lets you sync and stream your music between all your devices.</summary>
     <description>
-    ## Philosophy
-    mStream aims to be the simplest music streaming software around. mStream software will always be free and never have any advertisements
-    
-    ## Naming Scheme
-    mStream is the name of the entire project. Each piece of software is given name like 'mStream Something'
-    mStream Server is the backbone behind the entire project. It's a music streaming server written with NodeJS. The code is available on github and you can use it to setup your own server, but it's going to take some work and it has a few dependencies.
-    mStream Express is a special version of the server the comes with all the dependencies pre-packaged. It also comes with a GUI config tool to makes setup as simple as possible. These modifications allow mStream Express to be run without installing anything.
-    
-    ## History
-    Development of mStream was started around 2012. I had grown up using Winamp and at this point it was clear that it was time to move to something else. There was old PC collecting dust in my closet so I put Ubuntu on it, moved all my music to it, and started writing scripts to organize my collection's metadata. After a few weeks I had my own, primitive, music streaming service.
-    mStream Server was worked on as a hobby project for the next few years. During that time I experimented with different server software and rewrote the whole thing from scratch at least twice. Finally I settled on using NodeJS and started work on the latest version of mStream Server. I put this code on Github and one day someone posted a bug about the code crashing on Windows. At this point I had only run it on Linux. It took me a day to get it to install it on Windows, and another half a day to cleanup some Windows exclusive bugs. I still don't recommend installing mStream Server on Windows, it hasn't gotten much easier since then.
-    That whole Windows ordeal got me curious how other server software handled working on windows. The short answer is: not well. Every server I tried took a lot of time and technical knowledge to get up and running on Windows. So I came up with a challenge, to make a version of mStream Server that could be setup on Windows in under 5 minutes.
-    mStream Express is the product of this self-imposed challenge. It's so simple that you can get a server up and running in under a minute.
+## Philosophy
+mStream aims to be the simplest music streaming software around. mStream software will always be free and never have any advertisements
+
+## Naming Scheme
+mStream is the name of the entire project. Each piece of software is given name like 'mStream Something'
+mStream Server is the backbone behind the entire project. It's a music streaming server written with NodeJS. The code is available on github and you can use it to setup your own server, but it's going to take some work and it has a few dependencies.
+mStream Express is a special version of the server the comes with all the dependencies pre-packaged. It also comes with a GUI config tool to makes setup as simple as possible. These modifications allow mStream Express to be run without installing anything.
+
+## History
+Development of mStream was started around 2012. I had grown up using Winamp and at this point it was clear that it was time to move to something else. There was old PC collecting dust in my closet so I put Ubuntu on it, moved all my music to it, and started writing scripts to organize my collection's metadata. After a few weeks I had my own, primitive, music streaming service.
+mStream Server was worked on as a hobby project for the next few years. During that time I experimented with different server software and rewrote the whole thing from scratch at least twice. Finally I settled on using NodeJS and started work on the latest version of mStream Server. I put this code on Github and one day someone posted a bug about the code crashing on Windows. At this point I had only run it on Linux. It took me a day to get it to install it on Windows, and another half a day to cleanup some Windows exclusive bugs. I still don't recommend installing mStream Server on Windows, it hasn't gotten much easier since then.
+That whole Windows ordeal got me curious how other server software handled working on windows. The short answer is: not well. Every server I tried took a lot of time and technical knowledge to get up and running on Windows. So I came up with a challenge, to make a version of mStream Server that could be setup on Windows in under 5 minutes.
+mStream Express is the product of this self-imposed challenge. It's so simple that you can get a server up and running in under a minute.
     </description>
     <releaseNotes>https://github.com/IrosTheBeggar/mStream/releases</releaseNotes>
     <!-- =============================== -->      
