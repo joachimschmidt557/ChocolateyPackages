@@ -26,31 +26,45 @@ This is a nuspec. It mostly adheres to https://docs.nuget.org/create/Nuspec-Refe
     <!-- version should MATCH as closely as possible with the underlying software -->
     <!-- Is the version a prerelease of a version? https://docs.nuget.org/create/versioning#creating-prerelease-packages -->
     <!-- Note that unstable versions like 0.0.1 can be considered a released version, but it's possible that one can release a 0.0.1-beta before you release a 0.0.1 version. If the version number is final, that is considered a released version and not a prerelease. -->
-    <version>__REPLACE__</version>
-    <!-- <packageSourceUrl>Where is this Chocolatey package located (think GitHub)? packageSourceUrl is highly recommended for the community feed</packageSourceUrl>-->
+    <version>0.6</version>
+    <packageSourceUrl>https://github.com/joachimschmidt557/ChocolateyPackages/tree/master/manual/mstream.portable</packageSourceUrl>
     <!-- owners is a poor name for maintainers of the package. It sticks around by this name for compatibility reasons. It basically means you. -->
-    <!--<owners>__REPLACE_YOUR_NAME__</owners>-->
+    <owners>joachimschmidt557</owners>
     <!-- ============================== -->
 
     <!-- == SOFTWARE SPECIFIC SECTION == -->
     <!-- This section is about the software itself -->
-    <title>mstream.portable (Install)</title>
-    <authors>__REPLACE_AUTHORS_OF_SOFTWARE_COMMA_SEPARATED__</authors>
+    <title>mstream (Portable)</title>
+    <authors>Iros Software</authors>
     <!-- projectUrl is required for the community feed -->
-    <projectUrl>https://_Software_Location_REMOVE_OR_FILL_OUT_</projectUrl>
-    <!--<iconUrl>http://cdn.rawgit.com/__REPLACE_YOUR_REPO__/master/icons/mstream.portable.png</iconUrl>-->
+    <projectUrl>http://mstream.io/</projectUrl>
+    <iconUrl>https://cdn.rawgit.com/joachimschmidt557/ChocolateyPackages/5332ef89/icons/mstreamExpress.png</iconUrl>
     <!-- <copyright>Year Software Vendor</copyright> -->
     <!-- If there is a license Url available, it is required for the community feed -->
-    <!-- <licenseUrl>Software License Location __REMOVE_OR_FILL_OUT__</licenseUrl>
-    <requireLicenseAcceptance>true</requireLicenseAcceptance>-->
-    <!--<projectSourceUrl>Software Source Location - is the software FOSS somewhere? Link to it with this</projectSourceUrl>-->
-    <!--<docsUrl>At what url are the software docs located?</docsUrl>-->
+    <licenseUrl>https://github.com/IrosTheBeggar/mStream/blob/master/LICENSE</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <projectSourceUrl>https://github.com/IrosTheBeggar/mStream</projectSourceUrl>
+    <docsUrl>https://github.com/IrosTheBeggar/mStream/blob/master/docs</docsUrl>
     <!--<mailingListUrl></mailingListUrl>-->
-    <!--<bugTrackerUrl></bugTrackerUrl>-->
-    <tags>mstream.portable SPACE_SEPARATED</tags>
-    <summary>__REPLACE__</summary>
-    <description>__REPLACE__MarkDown_Okay </description>
-    <!-- <releaseNotes>__REPLACE_OR_REMOVE__MarkDown_Okay</releaseNotes> -->
+    <bugTrackerUrl>https://github.com/IrosTheBeggar/mStream/issues</bugTrackerUrl>
+    <tags>mstream.install music mp3 flac server foss cross-platform</tags>
+    <summary>mStream is a suite of open source software that lets you sync and stream your music between all your devices.</summary>
+    <description>
+## Philosophy
+mStream aims to be the simplest music streaming software around. mStream software will always be free and never have any advertisements
+
+## Naming Scheme
+mStream is the name of the entire project. Each piece of software is given name like 'mStream Something'
+mStream Server is the backbone behind the entire project. It's a music streaming server written with NodeJS. The code is available on github and you can use it to setup your own server, but it's going to take some work and it has a few dependencies.
+mStream Express is a special version of the server the comes with all the dependencies pre-packaged. It also comes with a GUI config tool to makes setup as simple as possible. These modifications allow mStream Express to be run without installing anything.
+
+## History
+Development of mStream was started around 2012. I had grown up using Winamp and at this point it was clear that it was time to move to something else. There was old PC collecting dust in my closet so I put Ubuntu on it, moved all my music to it, and started writing scripts to organize my collection's metadata. After a few weeks I had my own, primitive, music streaming service.
+mStream Server was worked on as a hobby project for the next few years. During that time I experimented with different server software and rewrote the whole thing from scratch at least twice. Finally I settled on using NodeJS and started work on the latest version of mStream Server. I put this code on Github and one day someone posted a bug about the code crashing on Windows. At this point I had only run it on Linux. It took me a day to get it to install it on Windows, and another half a day to cleanup some Windows exclusive bugs. I still don't recommend installing mStream Server on Windows, it hasn't gotten much easier since then.
+That whole Windows ordeal got me curious how other server software handled working on windows. The short answer is: not well. Every server I tried took a lot of time and technical knowledge to get up and running on Windows. So I came up with a challenge, to make a version of mStream Server that could be setup on Windows in under 5 minutes.
+mStream Express is the product of this self-imposed challenge. It's so simple that you can get a server up and running in under a minute.
+    </description>
+    <releaseNotes>https://github.com/IrosTheBeggar/mStream/releases</releaseNotes>
     <!-- =============================== -->      
 
     <!-- Specifying dependencies and version ranges? https://docs.nuget.org/create/versioning#specifying-version-ranges-in-.nuspec-files -->
