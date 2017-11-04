@@ -50,9 +50,9 @@ This is a nuspec. It mostly adheres to https://docs.nuget.org/create/Nuspec-Refe
     <summary>Create accurately sized files.</summary>
     <tags>bigbyte filesize foss</tags>
     <description>
-    Create accurately sized files.
-    - Create binary or ascii files. 
-    - Can create file sizes of B, KB, MB, GB and TB
+Create accurately sized files.
+- Create binary or ascii files. 
+- Can create file sizes of B, KB, MB, GB and TB
     </description>
     <!-- <releaseNotes>__REPLACE_OR_REMOVE__MarkDown_Okay</releaseNotes> -->
     <!-- =============================== -->      

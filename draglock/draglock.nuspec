@@ -50,8 +50,8 @@ This is a nuspec. It mostly adheres to https://docs.nuget.org/create/Nuspec-Refe
     <summary>Press the windows key to lock the mouse movement along one axis.</summary>
     <tags>draglock foss</tags>
     <description>
-    Press the windows key to lock the mouse movement along one axis.
-    - Change hotkey using Settings in the tray menu
+Press the windows key to lock the mouse movement along one axis.
+- Change hotkey using Settings in the tray menu
     </description>
     <!-- <releaseNotes>__REPLACE_OR_REMOVE__MarkDown_Okay</releaseNotes> -->
     <!-- =============================== -->      

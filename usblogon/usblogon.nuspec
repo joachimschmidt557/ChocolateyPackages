@@ -50,13 +50,12 @@ This is a nuspec. It mostly adheres to https://docs.nuget.org/create/Nuspec-Refe
     <tags>usblogon usb freeware</tags>
     <summary>Logon into your Windows PC using a USB drive</summary>
     <description>
-     USBLogon enables you to use a USB drive to login to your Windows account
-     instead of using a username and password. 
+USBLogon enables you to use a USB drive to login to your Windows account
+instead of using a username and password. 
 
-     * Optional logoff when the USB drive is disconnected
-     * Optional PIN-Code
-     * Configuration per command-line
-    
+* Optional logoff when the USB drive is disconnected
+* Optional PIN-Code
+* Configuration per command-line
     </description>
     <!-- <releaseNotes>__REPLACE_OR_REMOVE__MarkDown_Okay</releaseNotes> -->
     <!-- =============================== -->      

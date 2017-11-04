@@ -50,9 +50,9 @@ This is a nuspec. It mostly adheres to https://docs.nuget.org/create/Nuspec-Refe
     <summary>Press a key three times or more to apply accents.</summary>
     <tags>accents foss keyboard</tags>
     <description>
-    Press a key three times or more to apply accents.
-    - Change accents using Settings in the tray menu
-    - Doesn't work properly with shifted keys while CapsLock is on
+Press a key three times or more to apply accents.
+- Change accents using Settings in the tray menu
+- Doesn't work properly with shifted keys while CapsLock is on
     </description>
     <releaseNotes>
     v1.0: Added accents to non-alphabet characters. 

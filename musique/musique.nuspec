@@ -50,22 +50,21 @@ This is a nuspec. It mostly adheres to https://docs.nuget.org/create/Nuspec-Refe
     <tags>musique music musicplayer mp3 foss cross-platform</tags>
     <summary>Musique unclutters your music listening experience with a clean and innovative interface.</summary>
     <description>
-     Musique does its best to stay out of the way and keep you focused on the
-     only thing that really matters: Music.
+Musique does its best to stay out of the way and keep you focused on the
+only thing that really matters: Music.
 
-     Musique is great for kids and other family members that may find other
-     players too complex and cumbersome.
+Musique is great for kids and other family members that may find other
+players too complex and cumbersome.
      
-    * Starts fast, very lightweight and can easily handle large collections.
-    * Browse by artist photos, album covers and folders too, so you can organize your music your way.
-    * Immersive Info View you can switch to while listening. It shows information about the current track, album and artist.
-    * Supports most audio formats, including: FLAC, OGG Vorbis, Monkey's Audio (APE), Musepack (MPC), WavPack (WV), True Audio (TTA)
-    * Automatically fixes misspellings and case in track titles, album titles and artist names, freeing you from the hassle of manually tagging your files.
-    * Musique never ever modifies your files, it stores all of its data in its own database.
-    * Supports scrobbling to Last.fm
-    * Not an iTunes addon. It's a completely independent application that does one thing and does it well.
-    * Translated to more than 20 languages including German, French, Spanish, Portuguese, Italian, Russian and Chinese.
-    
+* Starts fast, very lightweight and can easily handle large collections.
+* Browse by artist photos, album covers and folders too, so you can organize your music your way.
+* Immersive Info View you can switch to while listening. It shows information about the current track, album and artist.
+* Supports most audio formats, including: FLAC, OGG Vorbis, Monkey's Audio (APE), Musepack (MPC), WavPack (WV), True Audio (TTA)
+* Automatically fixes misspellings and case in track titles, album titles and artist names, freeing you from the hassle of manually tagging your files.
+* Musique never ever modifies your files, it stores all of its data in its own database.
+* Supports scrobbling to Last.fm
+* Not an iTunes addon. It's a completely independent application that does one thing and does it well.
+* Translated to more than 20 languages including German, French, Spanish, Portuguese, Italian, Russian and Chinese.    
     </description>
     <releaseNotes>http://flavio.tordini.org/musique-1-5-now-free-on-mac-windows</releaseNotes>
     <!-- =============================== -->      
