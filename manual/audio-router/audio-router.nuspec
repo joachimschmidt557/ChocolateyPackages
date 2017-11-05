@@ -48,8 +48,16 @@ This is a nuspec. It mostly adheres to https://docs.nuget.org/create/Nuspec-Refe
     <!--<mailingListUrl></mailingListUrl>-->
     <bugTrackerUrl>https://github.com/audiorouterdev/audio-router/issues</bugTrackerUrl>
     <tags>audio-router audio mixer</tags>
-    <summary>__REPLACE__</summary>
-    <description>__REPLACE__MarkDown_Okay </description>
+    <summary>Routes audio from programs to different audio devices.</summary>
+    <description>
+Audio Router is a similar app that does exactly what CheVolume does, except this is free. 
+
+Here's a simple gif to show how it's used.
+
+![Audio Router](http://i.imgur.com/uq6ApMe.gif "Audio Router")
+
+For all feature requests/bugs/feedback, you can send me a PM. I highly appreciate all of them. The thread is now archived, so unfortunately you can't reply to it anymore.
+    </description>
     <releaseNotes>https://github.com/audiorouterdev/audio-router/releases</releaseNotes>
     <!-- =============================== -->      
 
