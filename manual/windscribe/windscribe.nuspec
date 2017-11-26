@@ -26,7 +26,7 @@ This is a nuspec. It mostly adheres to https://docs.nuget.org/create/Nuspec-Refe
     <!-- version should MATCH as closely as possible with the underlying software -->
     <!-- Is the version a prerelease of a version? https://docs.nuget.org/create/versioning#creating-prerelease-packages -->
     <!-- Note that unstable versions like 0.0.1 can be considered a released version, but it's possible that one can release a 0.0.1-beta before you release a 0.0.1 version. If the version number is final, that is considered a released version and not a prerelease. -->
-    <version>1.80 Build 33</version>
+    <version>1.80.33</version>
     <packageSourceUrl>https://github.com/joachimschmidt557/ChocolateyPackages/tree/master/manual/windscribe</packageSourceUrl>
     <!-- owners is a poor name for maintainers of the package. It sticks around by this name for compatibility reasons. It basically means you. -->
     <owners>joachim.schmidt557</owners>
@@ -34,11 +34,11 @@ This is a nuspec. It mostly adheres to https://docs.nuget.org/create/Nuspec-Refe
 
     <!-- == SOFTWARE SPECIFIC SECTION == -->
     <!-- This section is about the software itself -->
-    <title>windscribe (Install)</title>
+    <title>Windscribe (Install)</title>
     <authors>Windscribe Limited</authors>
     <!-- projectUrl is required for the community feed -->
     <projectUrl>https://windscribe.com</projectUrl>
-    <iconUrl></iconUrl>
+    <iconUrl>https://cdn.rawgit.com/joachimschmidt557/ChocolateyPackages/7e01db06/icons/Windscribe.png</iconUrl>
     <copyright>2017 Windscribe Limited</copyright>
     <!-- If there is a license Url available, it is required for the community feed -->
     <!-- <licenseUrl>Software License Location __REMOVE_OR_FILL_OUT__</licenseUrl>
