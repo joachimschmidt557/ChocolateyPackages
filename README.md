@@ -1,16 +1,5 @@
 # Chocolatey Packages
-Some packages for Chocolatey
 
-- Manual Packages
-    - Accents
-    - Areca Backup
-    - BigByte
-    - DeezPlayer
-    - DragLock
-    - easyCrypt
-    - FileDrop
-    - FlashPrint
-    - Folder Colorizer
-    - Musique
-    - UPX
-    - USBLogon
+This repository is deprecated and is still left open for compability reasons.
+
+Visit [joachimschmidt557/chocolatey-packages-manual-automatic](https://github.com/joachimschmidt557/chocolatey-packages-manual-automatic) for the current repository.
